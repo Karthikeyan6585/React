@@ -1,0 +1,39 @@
+body {
+	background-color:  #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 150px;
+	background-color: hsl(233, 47%, 7%);
+	font-size: larger;
+}
+  .row{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	
+  }
+  
+  .card-block {
+	  font-size: 1em;
+	  position: relative;
+	  margin: 0;
+	  padding: 1em;
+	  border: none;
+	  border-top: 1px solid rgba(34, 36, 38, .1);
+	  box-shadow: none;
+	   
+  }
+  .card {
+	background-color: hsl(244, 38%, 16%);
+	  font-size: 1em;
+	  width: 800px;
+	  height: 300px;
+	  overflow: hidden;
+	  padding: 2em;
+	  border: none;
+	  border-radius: .28571429rem;
+	  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+	  margin-top:20px;
+	text-align: justify;
+  }
